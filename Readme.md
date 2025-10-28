@@ -22,5 +22,19 @@ Después de instalar Git, es importante configurarlo con su nombre de usuario y 
   ```
   git config --global user.email "tu_correo@example.com"
   ```
-### 4. Instalación de MySQL
-MySQL es un sistema de gestión de bases de datos relacional de código abierto. Para instalar
+
+ ### 3.1.1 Generacion de primer commit
+ Una vez configurado Git, puede crear un nuevo repositorio y realizar su primer commit. Siga estos pasos:
+ 1. Cree un nuevo directorio para su proyecto y navegue hasta él:
+    ```
+    mkdir mi_proyecto
+    cd mi_proyecto
+    ```
+ 2. Inicialice un nuevo repositorio Git:
+    ```
+    git init
+    ```
+ 3. Cree un archivo README.md (opcional): 
+    ```
+    echo "# Mi Proyecto" >> README.md
+    ```
