@@ -5,7 +5,7 @@
 Este instructivo tiene como objetivo guiar a los estudiantes en la instalación y configuración de las herramientas necesarias para la primera clase de la asignatura de Bases de Datos.
 
 ### 1. Instalación de Vscode
-![Imagen de Vscode](https://code.visualstudio.com/assets/images/code-stable.png)
+![Imagen de Vscode](https://code.visualstudio.com/assets/images/code-stable.png)     
 Visual Studio Code (Vscode) es un editor de código fuente desarrollado por Microsoft. en la siguiente url se encuentra el instalador para su sistema operativo:
 - [Descargar Vscode](https://code.visualstudio.com/)
 ### 2. Instalación de Git (Control de versiones)
@@ -35,6 +35,13 @@ Después de instalar Git, es importante configurarlo con su nombre de usuario y 
     git init
     ```
  3. Cree un archivo README.md (opcional): 
+    
+
+ 4. Generar el primer commit:
     ```
-    echo "# Mi Proyecto" >> README.md
+    git add .
+    git commit -m "Primer commit"
     ```
+5. publicar el repositorio en GitHub (opcional):
+   - Cree un nuevo repositorio en GitHub.
+   - Siga las instrucciones proporcionadas por GitHub para conectar su repositorio local con el remoto y subir sus cambios.
