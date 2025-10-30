@@ -1,0 +1,7 @@
+# ignorar carpetas 
+books/
+# ignorar archivos con extesiones
+*.ipynb
+*.log
+*.csv
+*.env
